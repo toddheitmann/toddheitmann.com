@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+
+{{ if ne .Section "blog" }}
+<header>
+  <h1 class="list-header">#{{ .Title }}</h1>
+</header>
+{{ else }}
+<header>
+  <h1 class="list-header">Blog Home</h1>
+</header>
+{{ end }}
+
+<section class="blog-list">
+  {{ range (.Paginator 3).Pages }}
+
+  {{ if isset .Params "image" }}
+    {{ partial "summary-image.html" . }}
+  {{ else }}
+    {{ partial "summary-no-image.html" . }}
+  {{ end }}
+
+  {{ end }}
+</section>
+
+<div class="pagination">
+  {{ if .PrevInSection }}
+    <p class="prev"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></p>
+  {{ end }}
+  {{ if .NextInSection }}
+    <p class="next"><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></p>
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,39 @@
+{{ partial "header.html" . }}
+
+<header class="articles-header">
+  <h1>Shared Articles</h1>
+  <p>Browse articles that I found thought provoking and/or interesting.</p>
+</header>
+
+<section class="article-summaries">
+  {{ range .Data.Pages }}
+  <div class = "shared-article">
+    <div class = "shared-article-date">
+      <span>
+        <a href = "{{ .Params.siteurl }}">
+          {{ .Params.site }}
+        </a> | {{ .Params.pubdt }}</span>
+    </div>
+    <span class = "shared-article-title">
+      <a href = "{{ .Params.articleurl }}">
+        {{ .Title }}
+      </a>
+    </span>
+    <span class = "shared-article-author">By: {{ .Params.articleauthor }}</span>
+    <div class = "shared-article-content">
+      {{ .Content }}
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<div class="pagination">
+  {{ if .PrevInSection }}
+    <p class="prev"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></p>
+  {{ end }}
+  {{ if .NextInSection }}
+    <p class="next"><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></p>
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

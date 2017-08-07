@@ -1,0 +1,11 @@
+<div class="summary-short-div">
+  <div class="summary-short-span">
+    <span>
+      <a href="{{ .Site.BaseURL }}blog/{{ lower .Params.blog }}/">
+        {{ .Params.blog }}
+      </a> | {{ .Date.Format "Monday, January 2, 2006" }}
+    </span>
+  </div>
+  <span class="summary-short-span"><a href="{{ .Permalink }}">{{ .Title }}</a></span>
+  <span class="summary-short-span"><a href="{{ .Permalink }}">{{ .Params.subtitle }}</a></span>
+</div>

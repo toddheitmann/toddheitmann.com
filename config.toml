@@ -1,0 +1,59 @@
+title = "toddheitmann.com"
+baseURL = "www.toddheitmann.com"
+languageCode = "en-US"
+config = "config.toml"
+canonifyURLS = true
+enableRobotsTXT = true
+Paginate = 10
+
+[taxonomies]
+  tag = "tags"
+  blog = "blog"
+
+[permalinks]
+  blog = "/:filename"
+
+[Params]
+  author = "Todd Heitmann"
+  description = "A flavor of thoughts on life, technology, and books."
+  logo = "/images/logo.png"
+  favicon = "favicon.ico"
+  facebook = "https://www.facebook.com/toddheitmann"
+  twitter = "https://twitter.com/toddheitmann"
+  instagram = "https://instagram.com/toddheitmann"
+  linkedin = "https://www.linkedin.com/in/toddheitmann"
+  github = "https://github.com/toddheitmann"
+  email = "mailto:me@toddheitmann.com"
+
+[[menu.main]]
+  name = "About"
+  url  = "/about"
+  weight = 1
+[[menu.main]]
+  name = "Projects"
+  url  = "/#projects"
+  weight = 2
+[[menu.main]]
+  name = "Blog"
+  url  = "/blog/"
+  weight = 3
+[[menu.main]]
+  name = "Books"
+  url  = "/blog/books/"
+  weight = 1
+  parent = "Blog"
+[[menu.main]]
+  name = "Life"
+  url  = "/blog/life/"
+  weight = 2
+  parent = "Blog"
+[[menu.main]]
+  name = "Shared"
+  url  = "/blog/shared/"
+  weight = 3
+  parent = "Blog"
+[[menu.main]]
+  name = "Technology"
+  url  = "/blog/technology/"
+  weight = 4
+  parent = "Blog"

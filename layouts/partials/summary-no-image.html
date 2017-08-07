@@ -1,0 +1,28 @@
+<div class="summary-no-image">
+  <div class="summary-date">
+    <span>
+      <a href="{{ .Site.BaseURL }}blog/{{ lower .Params.blog }}/">
+        {{ .Params.blog }}
+      </a> | {{ .Date.Format "Monday, January 2, 2006" }}</span>
+  </div>
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <h3><a href="{{ .Permalink }}">{{ .Params.subtitle }}</a></h2>
+  <div class="summary-no-image-container">
+    {{ if isset .Params "tags" }}
+    <ul class = "summary-no-image-hashtag-list">
+        {{ range .Params.tags}}
+        <li><a class = "summary-no-image-hashtags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+    <p class="summary-no-image-desc">{{ .Description }}</p>
+  </div>
+  <div class="summary-no-image-summary">
+    <p>{{ .Params.summary }}</p>
+    <div class = "main-read-more button-div">
+      <a class = "transparent-button" href = "{{ .Permalink}}">
+          Read More
+      </a>
+    </div>
+  </div>
+</div>

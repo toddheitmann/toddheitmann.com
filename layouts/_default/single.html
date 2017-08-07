@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<article class="wrapper">
+  <p class="blog-description">{{ .Description }}</p>
+  {{ .Content }}
+</article>
+
+<div class="pagination">
+  {{ if .PrevInSection }}
+    <p class="prev"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></p>
+  {{ end }}
+  {{ if .NextInSection }}
+    <p class="next"><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></p>
+  {{ end }}
+</div>
+
+{{ partial "footer.html" . }}

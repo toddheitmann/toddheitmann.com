@@ -1,0 +1,32 @@
+<div class="summary-image">
+  <div class="summary-date">
+    <span>
+      <a href="{{ .Site.BaseURL }}blog/{{ lower .Params.blog }}/">
+        {{ .Params.blog }}
+      </a> | {{ .Date.Format "Monday, January 2, 2006" }}</span>
+  </div>
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <h3><a href="{{ .Permalink }}">{{ .Params.subtitle }}</a></h2>
+  <div class="summary-image-container">
+    <amp-img src = "{{ .Site.BaseURL }}/images/{{ .Params.image }}" width = "{{ .Params.imagewidth }}" height = "{{ .Params.imageheight }}" layout="responsive">
+    </amp-img>
+    <div class="summary-meta-container">
+      {{ if isset .Params "tags" }}
+      <ul class = "summary-hashtag-list">
+          {{ range .Params.tags}}
+          <li><a class = "summary-hashtags" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a></li>
+          {{ end }}
+      </ul>
+      {{ end }}
+      <p class="summary-desc">{{ .Description }}</p>
+    </div>
+  </div>
+  <div class="summary-summary">
+    <p>{{ .Params.summary }}</p>
+    <div class = "main-read-more button-div">
+      <a class = "transparent-button" href = "{{ .Permalink}}">
+          Read More
+      </a>
+    </div>
+  </div>
+</div>
