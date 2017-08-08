@@ -32,3 +32,19 @@
 </div>
 
 {{ partial "footer.html" . }}
+{{ partial "header.html" . }}
+
+{{ if ne .Section "blog" }}
+<header>
+  <h1 class="list-header">#{{ .Title }}</h1>
+</header>
+{{ else }}
+<header>
+  <h1 class="list-header">Blog Home</h1>
+</header>
+{{ end }}
+
+<section class="blog-list">
+  {{ range .Paginator.Pages }}
+
+  {{ if isset .Params "image" }}
