@@ -11,7 +11,7 @@
 {{ end }}
 
 <section class="blog-list">
-  {{ range (.Paginator 3).Pages }}
+  {{ range .Paginator.Pages }}
 
   {{ if isset .Params "image" }}
     {{ partial "summary-image.html" . }}
@@ -22,29 +22,24 @@
   {{ end }}
 </section>
 
+{{ if or (.Paginator.HasNext) (.Paginator.HasPrev) }}
 <div class="pagination">
-  {{ if .PrevInSection }}
-    <p class="prev"><a href="{{ .PrevInSection.Permalink }}">&larr; {{ .PrevInSection.Title }}</a></p>
-  {{ end }}
-  {{ if .NextInSection }}
-    <p class="next"><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &rarr;</a></p>
+  {{ if ne .Section "blog" }}
+    {{ if .Paginator.HasNext }}
+      <p class="prev"><a href="{{ .Site.BaseURL }}/blog/{{ .Data.Term }}/page/{{ add .Paginator.PageNumber 1 }}/">&larr; Previous Blogs</a></p>
+    {{ end }}
+    {{ if .Paginator.HasPrev }}
+      <p class="next"><a href="{{ .Site.BaseURL }}/blog/{{ .Data.Term }}/page/{{ sub .Paginator.PageNumber 1 }}/">Next Blogs &rarr;</a></p>
+    {{ end }}
+  {{ else }}
+    {{ if .Paginator.HasNext }}
+      <p class="prev"><a href="{{ .Section }}/page/{{ add .Paginator.PageNumber 1 }}/">&larr; Previous Blogs</a></p>
+    {{ end }}
+    {{ if .Paginator.HasPrev }}
+      <p class="next"><a href="{{ .Section }}/page/{{ sub .Paginator.PageNumber 1 }}/">Next Blogs &rarr;</a></p>
+    {{ end }}
   {{ end }}
 </div>
-
-{{ partial "footer.html" . }}
-{{ partial "header.html" . }}
-
-{{ if ne .Section "blog" }}
-<header>
-  <h1 class="list-header">#{{ .Title }}</h1>
-</header>
-{{ else }}
-<header>
-  <h1 class="list-header">Blog Home</h1>
-</header>
 {{ end }}
 
-<section class="blog-list">
-  {{ range .Paginator.Pages }}
-
-  {{ if isset .Params "image" }}
+{{ partial "footer.html" . }}
