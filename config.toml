@@ -1,5 +1,5 @@
 title = "toddheitmann.com"
-baseURL = "www.toddheitmann.com"
+baseURL = "http://www.toddheitmann.com"
 languageCode = "en-US"
 config = "config.toml"
 canonifyURLS = true
