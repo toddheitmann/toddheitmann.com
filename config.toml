@@ -1,5 +1,5 @@
 title = "toddheitmann.com"
-baseURL = "http://www.toddheitmann.com"
+baseURL = "https://www.toddheitmann.com"
 languageCode = "en-US"
 config = "config.toml"
 canonifyURLS = true
@@ -16,8 +16,7 @@ Paginate = 10
 [Params]
   author = "Todd Heitmann"
   description = "A flavor of thoughts on life, technology, and books."
-  logo = "/images/logo.png"
-  favicon = "favicon.ico"
+  logo = "https://www.toddheitmann.com/images/logo.png"
   facebook = "https://www.facebook.com/toddheitmann"
   twitter = "https://twitter.com/toddheitmann"
   instagram = "https://instagram.com/toddheitmann"

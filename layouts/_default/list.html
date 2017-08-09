@@ -33,10 +33,10 @@
     {{ end }}
   {{ else }}
     {{ if .Paginator.HasNext }}
-      <p class="prev"><a href="{{ .Section }}/page/{{ add .Paginator.PageNumber 1 }}/">&larr; Previous Blogs</a></p>
+      <p class="prev"><a href="{{ .Site.BaseURL}}/{{ .Section }}/page/{{ add .Paginator.PageNumber 1 }}/">&larr; Previous Blogs</a></p>
     {{ end }}
     {{ if .Paginator.HasPrev }}
-      <p class="next"><a href="{{ .Section }}/page/{{ sub .Paginator.PageNumber 1 }}/">Next Blogs &rarr;</a></p>
+      <p class="next"><a href="{{ .Site.BaseURL}}/{{ .Section }}/page/{{ sub .Paginator.PageNumber 1 }}/">Next Blogs &rarr;</a></p>
     {{ end }}
   {{ end }}
 </div>

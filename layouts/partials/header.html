@@ -20,17 +20,17 @@
 
     {{ if isset .Params "image" }}
     <meta name="twitter:card" content="summary_large_image"/>
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}images/{{ .Params.image }}"/>
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/images/{{ .Params.image }}"/>
     {{ else }}
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Site.Params.logo }}"/>
+    <meta name="twitter:image" content="{{ .Site.Params.logo }}"/>
     {{ end }}
     <meta property="fb:admins" content="https://www.facebook.com/toddheitmann">
     <meta property="og:url" content="{{ .Permalink }}"/>
     <meta property="og:title" content="{{ .Title }}"/>
     <meta property="og:description" content="{{ .Description }}"/>
-    {{ if isset .Params "image" }}<meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Params.image }}"/>
-    {{ else }}<meta property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.logo }}"/>{{ end }}
+    {{ if isset .Params "image" }}<meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.image }}"/>
+    {{ else }}<meta property="og:image" content="{{ .Site.Params.logo }}"/>{{ end }}
 
     {{ if .Site.Params.favicon }}
     <link rel="apple-touch-icon" sizes="57x57" href="/images/logo/apple-icon-57x57.png">
@@ -52,6 +52,51 @@
     <meta name="theme-color" content="#FFF">
     {{ end }}
     <link rel="canonical" href="{{ .Permalink }}">
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": "{{ .Permalink }}",
+      "headline": "{{ .Title }}",
+      "datePublished": "{{ .Date }}",
+      {{ if .IsPage }}
+      "description": "{{ .Description }}",
+      {{ else }}
+      "description": "{{ .Site.Params.description }}",
+      {{ end }}
+      "author": {
+        {{ if isset . "Author" }}
+        "@type": "Person",
+        "name": "{{ .Author }}"
+        {{ else }}
+        "@type": "Person",
+        "name": "Todd Heitmann"
+        {{ end }}
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Todd Heitmann",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ .Site.Params.logo }}",
+          "width": 800,
+          "height": 800
+        }
+      },
+      "image": {
+        "@type": "ImageObject",
+        {{ if isset .Params "image" }}
+        "url": "{{ .Site.BaseURL }}/images/{{ .Params.image }}",
+        "height": {{ .Params.imageheight }},
+        "width": {{ .Params.imagewidth }}
+        {{ else }}
+        "url": "{{ .Site.Params.logo }}",
+        "width": 800,
+        "height": 800
+        {{ end }}
+      }
+    }
+    </script>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
 {{ partial "css.html" }}
@@ -85,7 +130,7 @@
         <a href = "{{ .Site.BaseURL }}">
           <h2>todd<strong>heitmann</strong><span class = "com">.com</span></h2>
         </a>
-        <span on="tap:sidebar.toggle" id="amp-hamburger">&#9776;</span>
+        <button on="tap:sidebar.toggle" id="amp-hamburger">&#9776;</button>
       </div>
       {{ end }}
       <ul>
