@@ -47,4 +47,4 @@ Oswald J. Smith succinctly summarizes the book's main concept in the introductio
 
 I appreciate the insight it offers for living between the times, the already and the yet to come.
 
-If you have any questions or comments, connect with me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+If you have any questions or comments, connect with me on twitter [@toddheitmann](https://twitter.com/toddheitmann).

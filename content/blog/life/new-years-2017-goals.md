@@ -32,4 +32,4 @@ Most of these goals focus on intake. I believe that as I read, learn, and think 
 
 This list leaves room for winnowing or growth. I plan to consider [Donald Whitney’s](https://twitter.com/DonWhitney) [10 Questions](http://biblicalspirituality.org/10-questions-to-ask-at-the-start-of-a-new-year-or-on-your-birthday/) in the future with the purpose of reflection on actions. These two make prospect give me focus, but help me avoid the [hyper-examined life not worth living](http://resources.thegospelcoalition.org/library/the-hyper-examined-life-is-not-worth-living-in-2017).
 
-What goals are set before you in 2017? Do you have thoughts or discussion Connect with me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+What goals are set before you in 2017? Do you have thoughts or discussion Connect with me on twitter [@toddheitmann](https://twitter.com/toddheitmann).

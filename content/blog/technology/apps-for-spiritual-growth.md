@@ -49,4 +49,4 @@ The ease of going through prayers is the key feature as the simple, beautiful de
 
 I hope these apps give you ideas about personal growth in 2017. Please take a look at [NueBible](http://neubible.co), [Verses](http://www.getverses.com), and [Echo](https://new.echoprayer.com) for yourself!
 
-Enjoy these or use another app that helps you grow? Connect with me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Enjoy these or use another app that helps you grow? Connect with me on twitter [@toddheitmann](https://twitter.com/toddheitmann) and send me a DM.

@@ -57,4 +57,4 @@ Another area to improve on is the use of CSS. I learned the basics and even "adv
 
 The short time to go from nothing to a live website was faster than I expected. I hope you find this website an encouraging, challenging or intriguing place!
 
-Have an idea for future work or updates? Find a design flaw or coding mistake? Any questions about how to get started on your own computer? Reach out to me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Have an idea for future work or updates? Find a design flaw or coding mistake? Any questions about how to get started on your own computer? Reach out to me on twitter [@toddheitmann](https://twitter.com/toddheitmann) and send me a DM.

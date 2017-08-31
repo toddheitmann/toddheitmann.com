@@ -36,4 +36,4 @@ The downside to the well laid out stories is that breadth + depth = length. Whil
 
 Anyone interested in how probability affects decision making would benefit from this book. The robust examples and citations provide the reader many takeaways for real world application.
 
-Thoughts about these books or suggestion for future reading? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Thoughts about these books or suggestion for future reading? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) and send me a DM.

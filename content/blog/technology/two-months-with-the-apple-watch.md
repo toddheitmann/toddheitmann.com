@@ -41,4 +41,4 @@ Want fitness tracking and only fitness tracking? The Fitbit meets your needs bet
 
 Overall, I enjoy and use my Apple Watch every day as I easily view information, with the flick if the wrist. While sometimes I miss the social aspect of the Fitbit, the Apple Watch meets my needs in a more practical way.
 
-Do you enjoy using the Apple Watch and have found a great community app full of engagement? Feel something from this discussion is missing? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Do you enjoy using the Apple Watch and have found a great community app full of engagement? Feel something from this discussion is missing? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann).

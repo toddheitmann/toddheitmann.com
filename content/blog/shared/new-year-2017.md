@@ -32,6 +32,6 @@ The new year brings new resolutions. With common resolutions scrapped by Februar
 
 - For a general list with flexibility, check out the [2017 Christian Reading Challenge](http://www.challies.com/resources/the-2017-christian-reading-challenge).
 
-Considering new ideas for the new year? Tell me about it on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Considering new ideas for the new year? Tell me about it on twitter [@toddheitmann](https://twitter.com/toddheitmann).
 
 Happy New Year!

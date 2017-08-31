@@ -39,4 +39,4 @@ Writing down these ideas also helps us reflect at the end of the year. Did I sch
 
 All this thinking is not a mind exercise. Hopefully going over your personal values will motivate and compel you to action. For myself, these thoughts inspired me to diligently schedule evening time as a family. It also causes me to say no and strip out unimportant or "urgent" matters. Saying no to the good allows us to say yes to the best. By acting on these, we grow as individuals.
 
-Thoughts and comments? Want to share your ideas? Please contact me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com) to discuss more!
+Thoughts and comments? Want to share your ideas? Please contact me on twitter [@toddheitmann](https://twitter.com/toddheitmann) to discuss more!

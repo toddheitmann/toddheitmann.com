@@ -46,4 +46,4 @@ The [Educational Testing Service](http://www.ets.org/) that runs the GRE gives s
 
 Your schedule and finances dictate the options for study. Either option will improve results. If I must retake the test in the future, I probably will use Magoosh. The ease of self study and the cost allowed me to perform well to meet expectations and be admitted to graduate school this go around. Make sure you do what's best for the way you learn!
 
-Further questions? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Further questions? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann).

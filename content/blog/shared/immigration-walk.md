@@ -35,4 +35,4 @@ Noel Castellanos exemplifies this compassionate call for justice. His [story](ht
 
 The [Evangelical Immigration Table](http://evangelicalimmigrationtable.com) challenges us to read the Bible and see God's heart for foreigners. The [I was a stranger challenge](http://evangelicalimmigrationtable.com/iwasastranger/) is a simple step we each can take to begin this walk of our own. I *highly* encourage you to [participate](http://evangelicalimmigrationtable.com/iwasastranger/)!
 
-Thoughts, comments, or concerns? Ideas for ways to be more involved?  Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com) to chat more!
+Thoughts, comments, or concerns? Ideas for ways to be more involved?  Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) to chat more!

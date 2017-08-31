@@ -33,4 +33,4 @@ The obvious downside requires me to rebuild the website. Currently I run this fr
 
 While Wordpress wasn’t right for this website, I plan to build new websites for friends on it. This provides a non-technical person easy update capability, and the possibility for continued development should I become too busy. Overall, despite the many complaints, I consider it best for those needs, and obviously not my own.
 
-What experiences do you have using Wordpress? Share your thoughts with me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+What experiences do you have using Wordpress? Share your thoughts with me on twitter [@toddheitmann](https://twitter.com/toddheitmann).

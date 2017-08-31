@@ -85,4 +85,4 @@ I thoroughly enjoy sponsoring two children through compassion and hope to sponso
 
 If you don't currently sponsor a child through compassion, and are interested, [click here](http://www.compassion.com/sponsor_a_child/default.htm) to get more information.
 
-Questions or Comments? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Questions or Comments? Reach out on twitter [@toddheitmann](https://twitter.com/toddheitmann) and send me a DM.

@@ -45,4 +45,4 @@ The finishing chapters discussed reading in groups for peer edification and read
 
 As mentioned in the introduction, this book benefits those who regularly read and those who haven't cracked open a book since high school. One final takeaway from Lit! is the list of citations. After finishing, I had a list of ten other books I want to read, and that's being conservative. The purpose Lit! outlines along with the guidance and practice it gives propelled me to pick up another book. I'm sure you will find it worth your while.
 
-Have you previously read Lit! and come to different conclusions? Planning on starting to read? Feel free to contact me with questions or ideas on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Have you previously read Lit! and come to different conclusions? Planning on starting to read? Feel free to contact me with questions or ideas on twitter [@toddheitmann](https://twitter.com/toddheitmann).

@@ -32,4 +32,4 @@ Lastly, I finely learned about [Django](https://www.djangoproject.com). I am ama
 To get started, check out their simple poll app [tutorial](https://docs.djangoproject.com/en/1.9/intro/tutorial01/).  Once you walk through this, start your own project, use StackOverflow and you will see how simple this is! The hardest part is finding a project that you desire to see built. Once you find that idea, the sky is the limit!
 
 
-Questions or Comments about Django and how to get started? Reach out to me on twitter [@toddheitmann](https://twitter.com/toddheitmann) or [email me](mailto:me@toddheitmann.com).
+Questions or Comments about Django and how to get started? Reach out to me on twitter [@toddheitmann](https://twitter.com/toddheitmann).
