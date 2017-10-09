@@ -1,7 +1,7 @@
 ---
 title: I used to think gun control was the answer. My research told me otherwise.
 date: 2017-10-04
-articleauthor: By Leah Libresco
+articleauthor: Leah Libresco
 articleurl: https://www.washingtonpost.com/opinions/i-used-to-think-gun-control-was-the-answer-my-research-told-me-otherwise/2017/10/03/d33edca6-a851-11e7-92d1-58c702d2d975_story.html
 site: Washington Post
 siteurl: https://www.washingtonpost.com
