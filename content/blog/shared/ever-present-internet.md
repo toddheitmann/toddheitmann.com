@@ -6,7 +6,7 @@ description: With a now two year old, I see the topic of screen time creating co
 summary:  Technology continually marches forward, going back to something like the wheel or the printing press. However, in modern history, the use of a handheld computer, i.e. a smartphone, with constant internet connection exposes differences compared to previous generations. Recent articles and books led to more discussion for all ages in a number of different media outlets.
 date: 2017-09-30
 blog: Shared
-tags: [“technology”, "growth"]
+tags: ["technology", "growth"]
 image: ever-present-internet.jpg
 imageheight: 900
 imagewidth: 1200

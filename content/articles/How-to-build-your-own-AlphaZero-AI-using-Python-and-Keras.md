@@ -3,8 +3,8 @@ title: How to build your own AlphaZero AI using Python and Keras
 date: 2018-02-06
 articleauthor: David Foster
 articleurl: https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188
-site: medium
-siteurl: https://medium.com
+site: Medium
+siteurl: https://medium.com/applied-data-science
 pubdt: Friday January 26, 2018
 ---
 
