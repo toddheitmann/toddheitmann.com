@@ -7,7 +7,7 @@ summary: I first heard about the concept of yearly themes from the podcast Corte
 date: 2019-01-13
 blog: Life
 tags: [“theme”, "goals", "growth"]
-image: the-year-of-little.jpg
+image: the-year-of-little.jpeg
 imageheight: 900
 imagewidth: 1200
 status: published
