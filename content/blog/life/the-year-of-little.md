@@ -6,7 +6,7 @@ description: Yearly themes provide general guidance and freedom for decisions th
 summary: I first heard about the concept of yearly themes from the podcast Cortex. A recent episode explored their new themes for 2019. The idea allows one to shift goals and priorities throughout the new year, but provides direction and guidance for these decisions. Rather than having big overarching goals, this year I seek to take little baby steps in specific directions. A little bit goes a long way.
 date: 2019-01-13
 blog: Life
-tags: [“theme”, "goals", "growth"]
+tags: ["theme", "goals", "growth"]
 image: the-year-of-little.jpeg
 imageheight: 900
 imagewidth: 1200
