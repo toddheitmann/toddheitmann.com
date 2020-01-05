@@ -3,7 +3,7 @@ title: How Mr. Rogers practiced truly seeing people - A look at the movie “A B
 date: 2020-01-03
 articleauthor: Erik Parks
 articleurl: https://erlc.com/resource-library/articles/how-mr-rogers-practiced-truly-seeing-people
-site: erlc
+site: ERLC
 siteurl: https://erlc.com
 pubdt: Thursday December 26, 2019
 ---
